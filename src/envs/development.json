@@ -1,0 +1,16 @@
+{
+    "env": "development",
+    "port": 3000,
+    "host": "localhost",
+    "db": {
+        "host": "127.0.0.1:27017",
+        "name": "crowfunding"
+    },
+    "baseUrl": "http://localhost:3000/",
+    "basePath": "api/v1",
+    "jwt": {
+        "secret": "DebGVrfWJlZjGn0dW3waI5pT4wVVCrhl",
+        "expiration": "2h"
+    },
+    "mailToken" : "b6963bbeb77cd9ee3096e7679f535991"
+}
